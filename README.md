@@ -1,7 +1,7 @@
 # Self-Challenging Improves Cross-Domain Generalization (In progress)
 This is the official implementation of: 
 
-Zeyi Huang, Haohan Wang, Eric P. Xing, and Dong Huang, Self-Challenging Improves Cross-Domain Generalization, ECCV, 2020 (Oral), [arxiv version] (https://arxiv.org/abs/2007.02454).
+Zeyi Huang, Haohan Wang, Eric P. Xing, and Dong Huang, Self-Challenging Improves Cross-Domain Generalization, ECCV, 2020 (Oral), [arxiv version](https://arxiv.org/abs/2007.02454).
 
 ### Citation: 
 
@@ -15,20 +15,25 @@ Zeyi Huang, Haohan Wang, Eric P. Xing, and Dong Huang, Self-Challenging Improves
 ```
 
 ## Installation
-This is my experiment eviroument
 
-python3.7
-pytorch1.0
+### Requirements:
+
+- Python >=3.7
+- Pytorch>=1.0
 
 Download PACS dataset from [here](http://www.eecs.qmul.ac.uk/~dl307/project_iccv2017). Once you have download the data, you must update the files in data/txt_list to match the actual location of your files.
 
-## Training
+### Step-by-step installation
+
+
+## Training on PACS dataset
 Experiments with different source/target domains are listed in train.py(L151-158).
 
-## Testing
+## Testing on PACS dataset
 
-## Pretrained models
-ImageNet ResNet baselines training by RSC:
+
+## Other pretrained models
+New ImageNet ResNet baselines training by RSC.
 
 | Backbone        | Top-1 Acc % |Top-5 Acc % | pth models |
 | :--------------:| :--------------: | :------------:  |:------------:  |
