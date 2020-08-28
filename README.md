@@ -1,4 +1,4 @@
-# Self-Challenging Improves Cross-Domain Generalization (coming soon)
+# Self-Challenging Improves Cross-Domain Generalization (In progress)
 This is the official implementation of: 
 
 Zeyi Huang, Haohan Wang, Eric P. Xing, and Dong Huang, Self-Challenging Improves Cross-Domain Generalization, ECCV, 2020 (Oral), [arxiv version] (https://arxiv.org/abs/2007.02454).
@@ -28,3 +28,10 @@ Experiments with different source/target domains are listed in train.py(L151-158
 ## Testing
 
 ## Pretrained models
+ImageNet ResNet baselines training by RSC:
+
+| Backbone        | Top-1 Acc % |Top-5 Acc % | pth models |
+| :--------------:| :--------------: | :------------:  |:------------:  |
+| ResNet-50       |77.18           |93.53            |[download](https://cmu.box.com/s/wpcy4mwkfm7gku3q4b115d5y1t69i4s4)   |
+| ResNet-101      |78.23           |94.16            | download   |
+| ResNet-152      |78.89           |94.43            | download   |
