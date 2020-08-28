@@ -1,7 +1,18 @@
 # Self-Challenging Improves Cross-Domain Generalization (coming soon)
 This is the official implementation of: 
 
-Zeyi Huang, Haohan Wang, Eric P. Xing, and Dong Huang, Self-Challenging Improves Cross-Domain Generalization, ECCV2020(Oral), [arxiv version](https://arxiv.org/abs/2007.02454).
+Zeyi Huang, Haohan Wang, Eric P. Xing, and Dong Huang, Self-Challenging Improves Cross-Domain Generalization, ECCV, 2020 (Oral), [arxiv version] (https://arxiv.org/abs/2007.02454).
+
+### Citation: 
+
+```bash
+@inproceedings{huangRSC2020,
+  title={Self-Challenging Improves Cross-Domain Generalization},
+  author={Zeyi Huang and Haohan Wang and Eric P. Xing and Dong Huang},
+  booktitle={ECCV},
+  year={2020}
+}
+```
 
 ## Installation
 This is my experiment eviroument
